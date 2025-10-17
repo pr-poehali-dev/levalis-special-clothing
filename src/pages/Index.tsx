@@ -61,7 +61,7 @@ const products: Product[] = [
     category: 'Камуфляжная одежда',
     description: 'Летние камуфляжные костюмы в разных расцветках: цифра, мультикам, атакс',
     price: 'от 3 800 ₽',
-    image: 'https://cdn.poehali.dev/files/96190c68-3d9c-4a2f-bb2c-9f8ccf424c0e.jpg',
+    image: 'https://cdn.poehali.dev/projects/1c2a157e-19ec-4e79-bcc9-2f7209a38826/files/afad1c74-d0f1-4b01-b333-c520ed94e48e.jpg',
     features: ['Прочная ткань', '3 вида камуфляжа', 'Удобный крой', 'Летний вариант']
   }
 ];
