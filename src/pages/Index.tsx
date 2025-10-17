@@ -43,7 +43,7 @@ const products: Product[] = [
     category: 'Медицинская одежда',
     description: 'Классический медицинский костюм из качественной ткани',
     price: 'от 1 500 ₽',
-    image: 'https://cdn.poehali.dev/projects/1c2a157e-19ec-4e79-bcc9-2f7209a38826/files/ea07ec3c-5225-4a6d-87b6-4f6210c295e4.jpg',
+    image: 'https://cdn.poehali.dev/projects/1c2a157e-19ec-4e79-bcc9-2f7209a38826/files/ca5d1b4c-7064-406c-80cf-f609f730b478.jpg',
     features: ['100% хлопок', 'Антибактериальная обработка', 'Удобный крой', 'Различные цвета']
   },
   {
