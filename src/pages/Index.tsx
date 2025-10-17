@@ -31,7 +31,7 @@ const products: Product[] = [
   {
     id: 2,
     name: 'Камуфляжные футболки',
-    category: 'Летняя одежда',
+    category: 'Частый выбор',
     description: 'Футболки с различными камуфляжными расцветками, любой цвет и вышивка по желанию',
     price: 'от 800 ₽',
     image: 'https://cdn.poehali.dev/files/758ee92d-0f53-4d0d-ab3e-12613f17c88b.jpg',
