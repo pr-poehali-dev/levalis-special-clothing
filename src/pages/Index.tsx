@@ -61,7 +61,7 @@ const products: Product[] = [
     category: 'Одежда для пищевой промышленности',
     description: 'Профессиональный костюм для поваров: китель, фартук, колпак',
     price: 'от 2 200 ₽',
-    image: 'https://cdn.poehali.dev/files/e2665909-0b9f-412f-8f02-eb63c1e055f9.jpg',
+    image: 'https://cdn.poehali.dev/projects/1c2a157e-19ec-4e79-bcc9-2f7209a38826/files/ef9e2e89-add2-4c5e-86ce-ec2d957eebd1.jpg',
     features: ['Натуральная ткань', 'Стойкость к загрязнениям', 'Комплект с фартуком', 'Белый/черный цвет']
   },
   {
