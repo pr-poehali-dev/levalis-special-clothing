@@ -127,7 +127,6 @@ export default function Index() {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <Icon name="Shield" className="h-8 w-8 text-primary" />
             <h1 className="text-2xl font-bold font-heading bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               LEVALIS
             </h1>
@@ -407,7 +406,6 @@ export default function Index() {
         <div className="container">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
-              <Icon name="Shield" className="h-6 w-6 text-primary" />
               <span className="font-heading font-bold text-lg">LEVALIS</span>
             </div>
             <p className="text-sm text-muted-foreground text-center">
