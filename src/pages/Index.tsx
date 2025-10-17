@@ -216,11 +216,11 @@ export default function Index() {
                 className="overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 animate-scale-in"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
-                <div className="aspect-video bg-gradient-to-br from-primary/20 to-accent/20 relative overflow-hidden group">
+                <div className="aspect-video bg-white relative overflow-hidden group">
                   <img 
                     src={product.image} 
                     alt={product.name}
-                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                    className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
                   />
                   <div className="absolute top-2 right-2">
                     <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full text-xs font-medium">
@@ -262,8 +262,8 @@ export default function Index() {
                           <DialogDescription>{product.category}</DialogDescription>
                         </DialogHeader>
                         <div className="space-y-4">
-                          <div className="aspect-video bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg overflow-hidden">
-                            <img src={product.image} alt={product.name} className="w-full h-full object-cover" />
+                          <div className="aspect-video bg-white rounded-lg overflow-hidden border">
+                            <img src={product.image} alt={product.name} className="w-full h-full object-contain" />
                           </div>
                           <p className="text-muted-foreground">{product.description}</p>
                           <div>
