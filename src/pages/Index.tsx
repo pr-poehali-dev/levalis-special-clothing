@@ -25,7 +25,7 @@ const products: Product[] = [
     category: 'Камуфляжная одежда',
     description: 'Утепленный костюм с внутренним подкладом слайтекс до -15°C',
     price: 'от 5 500 ₽',
-    image: 'https://cdn.poehali.dev/files/673cd621-18eb-4ad7-b0c4-5189d7dcc5e0.jpg',
+    image: 'https://cdn.poehali.dev/files/ced8ad7f-2cce-4041-b2f8-7d7abf228880.jpg',
     features: ['Утеплитель слайтекс', 'Водоотталкивающая ткань', 'Различные камуфляжи', 'До -15°C']
   },
   {
