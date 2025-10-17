@@ -158,7 +158,7 @@ export default function Index() {
         <div className="container relative z-10">
           <div className="max-w-3xl mx-auto text-center space-y-6 animate-fade-in">
             <h2 className="text-4xl md:text-6xl font-bold font-heading bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-              Спецодежда LEVALIS
+              Levalis спец одежда
             </h2>
             <p className="text-xl text-muted-foreground">
               Качественная специализированная одежда для профессионалов. Индивидуальный пошив и стандартные решения.
