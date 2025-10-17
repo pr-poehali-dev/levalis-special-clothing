@@ -54,6 +54,15 @@ const products: Product[] = [
     price: 'от 2 200 ₽',
     image: 'https://cdn.poehali.dev/projects/1c2a157e-19ec-4e79-bcc9-2f7209a38826/files/ef9e2e89-add2-4c5e-86ce-ec2d957eebd1.jpg',
     features: ['Натуральная ткань', 'Стойкость к загрязнениям', 'Комплект с фартуком', 'Белый/черный цвет']
+  },
+  {
+    id: 5,
+    name: 'Камуфляжные костюмы',
+    category: 'Камуфляжная одежда',
+    description: 'Летние камуфляжные костюмы в разных расцветках: цифра, мультикам, атакс',
+    price: 'от 3 800 ₽',
+    image: 'https://cdn.poehali.dev/files/96190c68-3d9c-4a2f-bb2c-9f8ccf424c0e.jpg',
+    features: ['Прочная ткань', '3 вида камуфляжа', 'Удобный крой', 'Летний вариант']
   }
 ];
 
