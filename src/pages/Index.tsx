@@ -30,21 +30,21 @@ const products: Product[] = [
   },
   {
     id: 2,
-    name: 'Куртка рабочая утепленная',
-    category: 'Зимняя одежда',
-    description: 'Теплая куртка для работы в холодное время года',
-    price: 'от 3 200 ₽',
-    image: '/placeholder.svg',
-    features: ['Утеплитель синтепон', 'Водоотталкивающая ткань', 'Съемный капюшон', 'Светоотражающие элементы']
+    name: 'Костюм для охоты и рыбалки',
+    category: 'Камуфляжная одежда',
+    description: 'Утепленный костюм с внутренним подкладом слайтекс до -15°C',
+    price: 'от 5 500 ₽',
+    image: 'https://cdn.poehali.dev/files/673cd621-18eb-4ad7-b0c4-5189d7dcc5e0.jpg',
+    features: ['Утеплитель слайтекс', 'Водоотталкивающая ткань', 'Различные камуфляжи', 'До -15°C']
   },
   {
     id: 3,
-    name: 'Полукомбинезон рабочий',
-    category: 'Рабочая одежда',
-    description: 'Практичный полукомбинезон для различных видов работ',
-    price: 'от 2 800 ₽',
-    image: '/placeholder.svg',
-    features: ['Прочная ткань', 'Регулируемые лямки', 'Множество карманов', 'Усиление в зоне колен']
+    name: 'Камуфляжные футболки',
+    category: 'Летняя одежда',
+    description: 'Футболки с различными камуфляжными расцветками, любой цвет и вышивка по желанию',
+    price: 'от 800 ₽',
+    image: 'https://cdn.poehali.dev/files/758ee92d-0f53-4d0d-ab3e-12613f17c88b.jpg',
+    features: ['Дышащая ткань', 'Любой цвет камуфляжа', 'Вышивка на заказ', 'Размеры S-XXL']
   },
   {
     id: 4,
@@ -59,10 +59,10 @@ const products: Product[] = [
     id: 5,
     name: 'Костюм повара',
     category: 'Одежда для пищевой промышленности',
-    description: 'Комплект одежды для работников общепита',
+    description: 'Профессиональный костюм для поваров: китель, фартук, колпак',
     price: 'от 2 200 ₽',
-    image: '/placeholder.svg',
-    features: ['Breathable fabric', 'Стойкость к загрязнениям', 'Комплект: куртка + брюки', 'Белый цвет']
+    image: 'https://cdn.poehali.dev/files/e2665909-0b9f-412f-8f02-eb63c1e055f9.jpg',
+    features: ['Натуральная ткань', 'Стойкость к загрязнениям', 'Комплект с фартуком', 'Белый/черный цвет']
   },
   {
     id: 6,
@@ -182,6 +182,10 @@ export default function Index() {
             <p className="text-xl text-muted-foreground">
               Качественная специализированная одежда для профессионалов. Индивидуальный пошив и стандартные решения.
             </p>
+            <div className="inline-flex items-center gap-2 px-6 py-3 bg-accent/10 rounded-full mb-4">
+              <Icon name="Truck" className="h-5 w-5 text-accent" />
+              <span className="font-medium text-accent">Бесплатная доставка по Абакану</span>
+            </div>
             <div className="flex flex-wrap gap-4 justify-center pt-4">
               <Button size="lg" className="gap-2" onClick={() => document.getElementById('catalog')?.scrollIntoView({ behavior: 'smooth' })}>
                 <Icon name="ShoppingBag" className="h-5 w-5" />
