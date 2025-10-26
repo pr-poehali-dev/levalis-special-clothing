@@ -23,72 +23,37 @@ const products: Product[] = [
     id: 1,
     name: 'Костюм для охоты и рыбалки',
     category: 'Камуфляжная одежда',
-    description: 'Утепленный костюм с внутренним подкладом слайтекс до -15°C',
-    price: 'от 5 500 ₽',
-    image: 'https://cdn.poehali.dev/files/ced8ad7f-2cce-4041-b2f8-7d7abf228880.jpg',
-    features: ['Утеплитель слайтекс', 'Водоотталкивающая ткань', 'Различные камуфляжи', 'До -15°C']
+    description: 'Профессиональный водонепроницаемый костюм для охоты и рыбалки. Камуфляжная расцветка, усиленная ткань.',
+    price: '3 500 ₽',
+    image: 'https://cdn.poehali.dev/projects/1c2a157e-19ec-4e79-bcc9-2f7209a38826/files/4044d1ac-9323-4e04-8c66-bb191ebb21e8.jpg',
+    features: ['Водонепроницаемый материал', 'Камуфляжная расцветка', 'Усиленные швы', 'Комфортный крой']
   },
-  {
-    id: 2,
-    name: 'Камуфляжные футболки',
-    category: 'Частый выбор',
-    description: 'Футболки с различными камуфляжными расцветками, любой цвет и вышивка по желанию',
-    price: 'от 800 ₽',
-    image: 'https://cdn.poehali.dev/files/758ee92d-0f53-4d0d-ab3e-12613f17c88b.jpg',
-    features: ['Дышащая ткань', 'Любой цвет камуфляжа', 'Вышивка на заказ', 'Размеры S-XXL']
-  },
-  {
-    id: 3,
-    name: 'Костюм медицинский',
-    category: 'Медицинская одежда',
-    description: 'Классический медицинский костюм из качественной ткани. Можем сделать любого цвета',
-    price: 'от 1 500 ₽',
-    image: 'https://cdn.poehali.dev/projects/1c2a157e-19ec-4e79-bcc9-2f7209a38826/files/ca5d1b4c-7064-406c-80cf-f609f730b478.jpg',
-    features: ['100% хлопок', 'Антибактериальная обработка', 'Удобный крой', 'Различные цвета']
-  },
-  {
-    id: 4,
-    name: 'Костюм повара',
-    category: 'Одежда для пищевой промышленности',
-    description: 'Профессиональный костюм для поваров: китель, фартук, колпак. Можем сделать любого цвета',
-    price: 'от 2 200 ₽',
-    image: 'https://cdn.poehali.dev/projects/1c2a157e-19ec-4e79-bcc9-2f7209a38826/files/ef9e2e89-add2-4c5e-86ce-ec2d957eebd1.jpg',
-    features: ['Натуральная ткань', 'Стойкость к загрязнениям', 'Комплект с фартуком', 'Белый/черный цвет']
-  },
-  {
-    id: 5,
-    name: 'Камуфляжные костюмы',
-    category: 'Камуфляжная одежда',
-    description: 'Летние камуфляжные костюмы в разных расцветках: цифра, мультикам, атакс',
-    price: 'от 3 800 ₽',
-    image: 'https://cdn.poehali.dev/projects/1c2a157e-19ec-4e79-bcc9-2f7209a38826/files/915734a5-6938-41d9-9127-b6a9448c2bdc.jpg',
-    features: ['Прочная ткань', '3 вида камуфляжа', 'Удобный крой', 'Летний вариант']
-  }
+
 ];
 
 const services = [
   {
     id: 1,
-    title: 'Пошив по индивидуальному заказу',
-    description: 'Создаем спецодежду по вашим размерам и требованиям. Учитываем все особенности работы и предпочтения.',
-    icon: 'Scissors',
+    title: 'Влагозащита',
+    description: 'Специальная обработка ткани обеспечивает надежную защиту от дождя и влаги',
+    icon: 'Droplet',
     features: [
-      'Индивидуальные замеры',
-      'Выбор ткани и фурнитуры',
-      'Нанесение логотипов и эмблем',
-      'Срок изготовления от 7 дней'
+      'Водонепроницаемая мембрана',
+      'Защита от промокания',
+      'Дышащий материал',
+      'Проклеенные швы'
     ]
   },
   {
     id: 2,
-    title: 'Пошив по стандартным размерам',
-    description: 'Качественная спецодежда стандартных размеров с быстрой доставкой по выгодным ценам.',
-    icon: 'Package',
+    title: 'Комфорт и прочность',
+    description: 'Надежная конструкция и качественные материалы обеспечивают долговечность и удобство',
+    icon: 'ShieldCheck',
     features: [
-      'Размерный ряд 44-62',
-      'Готовые модели в наличии',
-      'Оптовые скидки',
-      'Доставка по России'
+      'Усиленные швы',
+      'Эргономичный крой',
+      'Износостойкая ткань',
+      'Много карманов'
     ]
   }
 ];
@@ -137,15 +102,15 @@ export default function Index() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <h1 className="text-2xl font-bold font-heading bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              LEVALIS
+              ОХОТА-РЫБАЛКА
             </h1>
           </div>
           <nav className="hidden md:flex gap-6">
             <a href="#catalog" className="text-sm font-medium hover:text-primary transition-colors">
-              Каталог
+              Характеристики
             </a>
             <a href="#services" className="text-sm font-medium hover:text-primary transition-colors">
-              Услуги
+              Преимущества
             </a>
             <a href="#contacts" className="text-sm font-medium hover:text-primary transition-colors">
               Контакты
@@ -167,23 +132,27 @@ export default function Index() {
         <div className="container relative z-10">
           <div className="max-w-3xl mx-auto text-center space-y-6 animate-fade-in">
             <h2 className="text-4xl md:text-6xl font-bold font-heading bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-              Levalis спец одежда
+              Костюм для охоты и рыбалки
             </h2>
             <p className="text-xl text-muted-foreground">
-              Качественная специализированная одежда для профессионалов. Индивидуальный пошив и стандартные решения.
+              Профессиональная экипировка для охоты и рыбалки всего за 3500₽
             </p>
             <div className="inline-flex items-center gap-2 px-6 py-3 bg-accent/10 rounded-full mb-4">
-              <Icon name="Truck" className="h-5 w-5 text-accent" />
-              <span className="font-medium text-accent">Бесплатная доставка по Абакану</span>
+              <Icon name="DollarSign" className="h-5 w-5 text-accent" />
+              <span className="font-medium text-accent">Специальная цена 3500₽</span>
             </div>
             <div className="flex flex-wrap gap-4 justify-center pt-4">
-              <Button size="lg" className="gap-2" onClick={() => document.getElementById('catalog')?.scrollIntoView({ behavior: 'smooth' })}>
+              <Button size="lg" className="gap-2" onClick={() => {
+                setSelectedProduct(products[0]);
+                setOrderForm(prev => ({ ...prev, message: 'Заказ товара: Костюм для охоты и рыбалки' }));
+                setIsOrderDialogOpen(true);
+              }}>
                 <Icon name="ShoppingBag" className="h-5 w-5" />
-                Смотреть каталог
+                Заказать костюм
               </Button>
               <Button size="lg" variant="outline" className="gap-2" onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}>
-                <Icon name="Wrench" className="h-5 w-5" />
-                Наши услуги
+                <Icon name="Info" className="h-5 w-5" />
+                Подробнее
               </Button>
             </div>
           </div>
@@ -193,9 +162,9 @@ export default function Index() {
       <section id="catalog" className="py-16 md:py-24 bg-background">
         <div className="container">
           <div className="text-center mb-12 animate-fade-in">
-            <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">Каталог спецодежды</h2>
+            <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">Характеристики костюма</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Широкий ассортимент спецодежды для различных сфер деятельности
+              Качественная экипировка для профессионалов и любителей
             </p>
           </div>
 
@@ -291,9 +260,9 @@ export default function Index() {
       <section id="services" className="py-16 md:py-24 bg-muted/30">
         <div className="container">
           <div className="text-center mb-12 animate-fade-in">
-            <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">Наши услуги</h2>
+            <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">Преимущества костюма</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Профессиональный пошив спецодежды под любые требования
+              Надежная защита и комфорт в любых условиях
             </p>
           </div>
 
